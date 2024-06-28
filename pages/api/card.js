@@ -1,6 +1,6 @@
 var q = [3, 20, 100];
 var e = ['sulen010 ', 'sulen0Cake ', 'sulen0Food '];
-export default async function handler(req, res) {
+export default async function (req, res) {
 	let t = '';
 	let s = 0;
 	for (let i = 0; i < 10; i++) {

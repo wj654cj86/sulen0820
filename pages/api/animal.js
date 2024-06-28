@@ -33,7 +33,7 @@ function 洗牌() {
 	}
 }
 洗牌();
-export default async function handler(req, res) {
+export default async function (req, res) {
 	let 抽獎人 = req.query.u;
 	let token = req.query.t;
 	let 抽動物 = 保底表[順序++];

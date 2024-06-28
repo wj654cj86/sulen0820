@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+export default async function (req, res) {
 	let { name } = req.query;
 	let 帳號 = '';
 	let 暱稱 = '';
